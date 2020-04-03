@@ -13,6 +13,6 @@ class MathTest extends TestCase
 {
     public function testGetName(){
         $model = new Math;
-        $this->assertEquals(8, $model->mypow(2, 3));
+        $this->assertEquals(4, $model->mypow(2, 2));
     }
 }
