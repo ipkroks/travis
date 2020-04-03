@@ -7,4 +7,4 @@ php:
 
 
 # Commands you want to run that will verify your build.
-script: vendor/bin/phpunit
+script: phpunit
