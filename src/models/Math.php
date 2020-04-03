@@ -12,6 +12,6 @@ class Math
 {
     public function mypow($a, $b)
     {
-        return $a * $b;
+        return $a ** $b;
     }
 }
