@@ -18,6 +18,6 @@ class CatalogTest extends TestCase
 
     public function testGetId(){
         $model = new Catalog(13, 'Роутер');
-        $this->assertEquals($model->getId(), 12);
+        $this->assertEquals($model->getId(), 13);
     }
 }
