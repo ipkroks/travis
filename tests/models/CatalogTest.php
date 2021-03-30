@@ -12,12 +12,12 @@ use app\models\Catalog;
 class CatalogTest extends TestCase
 {
     public function testGetName(){
-        $model = new Catalog(1, 'Репитер');
-        $this->assertEquals($model->getName(), 'Репитер');
+        $model = new Catalog(1, 'Антенна');
+        $this->assertEquals($model->getName(), 'Антенна');
     }
 
     public function testGetId(){
-        $model = new Catalog(13, 'Репитер');
+        $model = new Catalog(13, 'Антенна');
         $this->assertEquals($model->getId(), 13);
     }
 }
