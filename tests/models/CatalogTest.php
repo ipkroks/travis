@@ -13,7 +13,7 @@ class CatalogTest extends TestCase
 {
     public function testGetName(){
         $model = new Catalog(1, 'Антенна');
-        $this->assertEquals($model->getName(), 'Антенна');
+        $this->assertEquals($model->getName(), 'Роутер');
     }
 
     public function testGetId(){
